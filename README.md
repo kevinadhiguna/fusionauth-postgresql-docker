@@ -25,7 +25,12 @@ cp .env.example .env
 
 Then please fill the `.env` file.
 
-3) Run your app with `docker-compose` :
+3) Run your app with `docker-compose` (in detached mode, you will not be seeing logs of your app) :
+```bash
+docker-compose -f fusionauth-postgresql.yaml up -d
+```
+
+If you want to see the logs while running your app, run it with :
 ```bash
 docker-compose -f fusionauth-postgresql.yaml up
 ```
