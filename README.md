@@ -2,7 +2,9 @@
 
 🔒 FusionAuth (Authentication and Authorization service) with PostgreSQL powered by docker-compose.
 <br/>
-<br/>
+
+<img src="https://s9.gifyu.com/images/fa.png" alt="fa.png" border="0" />
+
 Don't waste your time on authentication and authorization...
 
 ## Prerequisites :
