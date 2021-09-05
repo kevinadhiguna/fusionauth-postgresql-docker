@@ -7,7 +7,7 @@ Don't waste your time on authentication and authorization...
 
 ## Prerequisites :
 
-You should have [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/) in your computer.
+You should have [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed on your computer.
 
 ## How to Run :
 
