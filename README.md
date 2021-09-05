@@ -5,7 +5,11 @@
 <br/>
 Don't waste your time on authentication and authorization...
 
-## How to Run:
+## Prerequisites :
+
+You should have [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/) in your computer.
+
+## How to Run :
 
 1) Clone this repository :
 ```bash
