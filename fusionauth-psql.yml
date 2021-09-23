@@ -18,6 +18,7 @@ services:
 
   fusionauth:
     image: fusionauth/fusionauth-app:latest
+    container_name: fusionauth_postgres
     depends_on:
       - db
     environment:
