@@ -3,6 +3,7 @@ version: '3'
 services:
   db:
     image: postgres:11.9-alpine
+    container_name: fusionauth_postgresql_db
     environment:
       PGDATA: /var/lib/postgresql/data/pgdata
       POSTGRES_USER: ${POSTGRES_USER}
@@ -18,7 +19,7 @@ services:
 
   fusionauth:
     image: fusionauth/fusionauth-app:latest
-    container_name: fusionauth_postgres
+    container_name: fusionauth
     depends_on:
       - db
     environment:
@@ -40,8 +41,6 @@ services:
       FUSIONAUTH_APP_RUNTIME_MODE: development
       FUSIONAUTH_APP_URL: http://localhost:9011
       SEARCH_TYPE: database
-
-
     networks:
      - db
     restart: unless-stopped
