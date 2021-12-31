@@ -7,7 +7,7 @@ services:
     environment:
       PGDATA: ${PGDATA:-/var/lib/postgresql/data/pgdata}
       POSTGRES_USER: ${POSTGRES_USER:-fusionauthdb_user}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-P@ssw0rd}
     # Un-comment to access the db service directly
 #   ports:
 #     - 5432:5432
@@ -31,7 +31,7 @@ services:
       # Prior to version 1.19.0, use this deprecated name
       # DATABASE_USER: ${DATABASE_USER}
       DATABASE_USERNAME: ${DATABASE_USERNAME:-fusionauthdb_user}
-      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD:-P@ssw0rd}
       # Prior to version 1.19.0, use this deprecated names
       # FUSIONAUTH_MEMORY: ${FUSIONAUTH_MEMORY}
       # FUSIONAUTH_SEARCH_ENGINE_TYPE: database
