@@ -32,7 +32,7 @@ services:
       # FUSIONAUTH_SEARCH_ENGINE_TYPE: elasticsearch
       # FUSIONAUTH_SEARCH_SERVERS: http://search:9200
       SEARCH_SERVERS: ${SEARCH_SERVERS:-http://localhost:9200}
-      SEARCH_TYPE: elasticsearch
+      SEARCH_TYPE: ${SEARCH_TYPE:-elasticsearch}
     networks:
       - search
 
