@@ -38,7 +38,7 @@ services:
       # FUSIONAUTH_URL: http://fusionauth:9011
       # FUSIONAUTH_RUNTIME_MODE: development
       FUSIONAUTH_APP_MEMORY: ${FUSIONAUTH_APP_MEMORY}
-      FUSIONAUTH_APP_RUNTIME_MODE: development
+      FUSIONAUTH_APP_RUNTIME_MODE: ${FUSIONAUTH_APP_RUNTIME_MODE:-development}
       FUSIONAUTH_APP_URL: http://localhost:9011
       SEARCH_TYPE: database
     networks:
