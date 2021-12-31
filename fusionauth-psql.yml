@@ -40,7 +40,7 @@ services:
       FUSIONAUTH_APP_MEMORY: ${FUSIONAUTH_APP_MEMORY}
       FUSIONAUTH_APP_RUNTIME_MODE: ${FUSIONAUTH_APP_RUNTIME_MODE:-development}
       FUSIONAUTH_APP_URL: ${FUSIONAUTH_APP_URL:-http://localhost:9011}
-      SEARCH_TYPE: database
+      SEARCH_TYPE: ${SEARCH_TYPE:-database}
     networks:
      - db
     restart: unless-stopped
