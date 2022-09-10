@@ -1,15 +1,20 @@
 # FusionAuth PostgreSQL - docker-compose
 
 🔒 FusionAuth (Authentication and Authorization service) with PostgreSQL powered by docker-compose.
-<br/>
+
+<br />
 
 <img src="https://s9.gifyu.com/images/fa.png" alt="fa.png" border="0" />
 
 Don't waste your time on authentication and authorization...
 
+<br />
+
 ## Prerequisites :
 
 You should have [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed on your computer.
+
+<br />
 
 ## How to Run :
 
@@ -37,6 +42,6 @@ docker-compose -f fusionauth-postgresql.yml up
 
 You can visit your app at `http://localhost:9011` in your browser.
 
-<br/>
+<br />
 
 ![Hello !](https://api.visitorbadge.io/api/VisitorHit?user=kevinadhiguna&repo=fusionauth-postgresql-docker&label=thanks%20for%20dropping%20in%20!&labelColor=%23000000&countColor=%23FFFFFF)
